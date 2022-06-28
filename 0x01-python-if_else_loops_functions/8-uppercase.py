@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# Write a function that prints a string in uppercase followed by a new line.
+# Write a function that prints a string in uppercase followed by a new lin.
 
 # Prototype: def uppercase(str):
 # You can only use no more than 2 print functions with string format
@@ -12,6 +12,5 @@ def uppercase(str):
         # if it is in lowercase
         if ord('a') <= ord(c) <= ord('z'):
             letter = chr(ord(c) - (ord('a') - ord('A')))
-        print("{:s}".format(letter),end='')
-    print("")
+        print("{:s}".format(letter), end='')
 
