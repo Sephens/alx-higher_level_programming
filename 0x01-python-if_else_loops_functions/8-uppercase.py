@@ -8,8 +8,11 @@
 # You are not allowed to use str.upper() and str.isupper()
 
 def uppercase(str):
-    for c in str:
-        if ord('a') <= ord(c) <= ord('z'):
-            c = chr(ord(c) - (ord('a') - ord('A')))
-        print("{:s}".format(c), end='')
-    print("")
+    new_string = ""
+    for letter in str:
+        if letter >= 'a' and letter <= 'z':
+            new_string = new_string + chr((ord(letter) - 32))
+        else:
+            new_string = new_string + letter
+
+    print("{}".format(new_string), end=', ')
