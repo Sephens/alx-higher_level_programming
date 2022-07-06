@@ -1,10 +1,11 @@
 #!/usr/bin/python3
 # 12-roman_to_int.py
-# Brennan D Baraban <375@holbertonschool.com>
+# Create a function def roman_to_int(roman_string):
+# that converts a Roman numeral to an integer.
 
 
 def roman_to_int(roman_string):
-    """Converts a roman numeral to an integer."""
+    # Converts a roman numeral to an integer.
     if (not isinstance(roman_string, str) or
             roman_string is None):
         return (0)
