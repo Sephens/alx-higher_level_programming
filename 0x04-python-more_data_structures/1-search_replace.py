@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # 1-search_replace.py
-# Brennan D Baraban <375@holbertonschool.com
-
+# Steven Odhiambo
+# Write a function that replaces all occurrences of an element by another in a new list.
 
 def search_replace(my_list, search, replace):
     """Replace all occurrences of an element by another in a new list."""
